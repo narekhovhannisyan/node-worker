@@ -1,3 +1,6 @@
 {
-  "url": "/"
+  "workerId": 1,
+  "concat": 1,
+  "rend": 1,
+  "preview": 1
 }
