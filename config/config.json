@@ -1,6 +1,6 @@
 {
   "workerId": 1,
-  "concat": 1,
-  "rend": 1,
-  "preview": 1
+  "rend": 0,
+  "preview": 0,
+  "concat": 0
 }
