@@ -40,7 +40,7 @@ app.post(
     console.log(workerConfig)
     utils.makeRequestByObjectAndId(workerConfig, workerId)
     .then(() => {
-      return utils.simulateWorkTimeout(typeAndTime, () => utils.makeRequestByObjectAndId(workerConfig, workerId))
+      return utils.simulateWorkTimeout(typeAndTime, workerConfig, () => utils.makeRequestByObjectAndId(workerConfig, workerId))
     })
   }
 )
